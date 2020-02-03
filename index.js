@@ -7,5 +7,5 @@ execSync(`git pull`);
 rimraf.sync(`static/`);
 fs.copySync(`../web/static`, 'static/');
 
-msg = execSync(`git add . && git commit -m 'auto commit'`);
+msg = execSync(`git add . && git commit -m 'auto commit' && git push`);
 console.log(msg.toString());
