@@ -1,0 +1,22 @@
+{
+  "name": "kelimusic-static",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewis617/kelimusic-static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewis617/kelimusic-static/issues"
+  },
+  "homepage": "https://github.com/lewis617/kelimusic-static#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
