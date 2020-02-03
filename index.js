@@ -13,4 +13,4 @@ if(msg.includes('nothing to commit') || msg.includes('无文件要提交')){
 }
 
 msg = execSync(`git add . && git commit -m 'auto commit' && git push`).toString();
-console.log(msg.toString);
+console.log(msg);
