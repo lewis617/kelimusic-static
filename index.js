@@ -14,5 +14,6 @@ if(msg.includes('nothing to commit') || msg.includes('无文件要提交')){
 }
 
 const ver = getVer();
+console.log('新版本为：', ver);
 msg = execSync(`git add . && git commit -m 'auto commit' && git push && git tag v${ver} && git push origin v${ver}`).toString();
 console.log(msg);
