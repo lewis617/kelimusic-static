@@ -1,0 +1,1 @@
+https://cdn.jsdelivr.net/gh/lewis617/kelimusic-static@0.0.1/index.js
